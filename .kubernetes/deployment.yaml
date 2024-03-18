@@ -25,15 +25,15 @@ spec:
         app: to-do-deployment
     spec:
       containers:
-      - image: ghcr.io/ci-cd-2024-dhbw-hdh/simon.berndt:main
-        imagePullPolicy: IfNotPresent
-        name: simon.berndt
-        resources: {}
-        terminationMessagePath: /dev/termination-log
-        terminationMessagePolicy: File
+        - image: ghcr.io/ci-cd-2024-dhbw-hdh/simon.berndt:main
+          imagePullPolicy: IfNotPresent
+          name: simon.berndt
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
       dnsPolicy: ClusterFirst
       imagePullSecrets:
-      - name: regcred
+        - name: regcred
       restartPolicy: Always
       schedulerName: default-scheduler
       securityContext: {}

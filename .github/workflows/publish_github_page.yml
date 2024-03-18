@@ -2,14 +2,13 @@ name: Deploy Github Page
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   contents: write
 
 env:
   NODE_VERSION: 18.14.2
-
 
 jobs:
   build-test-and-deploy:
@@ -36,7 +35,7 @@ jobs:
 
       - name: eslint check
         run: npm run lint
-        
+
       - name: run test
         run: npm run test
 

@@ -8,18 +8,18 @@ metadata:
 spec:
   clusterIP: 10.245.232.46
   clusterIPs:
-  - 10.245.232.46
+    - 10.245.232.46
   externalTrafficPolicy: Cluster
   internalTrafficPolicy: Cluster
   ipFamilies:
-  - IPv4
+    - IPv4
   ipFamilyPolicy: SingleStack
   ports:
-  - name: 8080-80
-    nodePort: 32689
-    port: 8080
-    protocol: TCP
-    targetPort: 80
+    - name: 8080-80
+      nodePort: 32689
+      port: 8080
+      protocol: TCP
+      targetPort: 80
   selector:
     app: to-do-deployment
   sessionAffinity: None
