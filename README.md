@@ -1,5 +1,12 @@
 # Klausur 2023 DHBW HDH
 
+## Informationen zur Abgabe
+
+Abgabe der Aufgabe 5 befindet sich in AUFGABE5.md
+In den Workflows befindet sich auf die Pipeline zum automatischen k8 deployment
+Auf der digital Ocean Kluster befindet sich die von dieser Pipeline deployte Anwendung
+
+
 ## Setup
 
 ### Klone dieses Repository
