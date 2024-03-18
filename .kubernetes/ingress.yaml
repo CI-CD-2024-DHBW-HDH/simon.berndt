@@ -1,12 +1,12 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: gaming
+  name: to-do-ingress-simon
   namespace: simon-berndt
 spec:
   ingressClassName: nginx
   rules:
-    - host: gaming.dhbw.schoeppi5.de
+    - host: simon-berndt.dhbw.schoeppi5.de
       http:
         paths:
           - backend:
