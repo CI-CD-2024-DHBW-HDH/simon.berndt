@@ -1,3 +1,5 @@
+name: Deploy K8s
+
 on:
   push:
     branches:
